@@ -591,6 +591,10 @@ ul {
         margin-top: 80px;
         font-size: 0.8rem;
     }
+
+    .section1 .section1h1 {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 625px) {

@@ -72,7 +72,7 @@ ul {
 }
 
 
- 
+
 
 
 .mainsection {
@@ -135,7 +135,7 @@ ul {
     /* padding: 10px; */
 }
 
-.btnmore  {
+.btnmore {
     /* background-color: yellow; */
     display: flex;
     justify-content: space-around;
@@ -143,7 +143,7 @@ ul {
     margin: 20px 0px 0px;
 }
 
-.btnmore > button {
+.btnmore>button {
     width: 150px;
     height: 40px;
     font-family: sans-serif;
@@ -174,7 +174,7 @@ ul {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.section3 > p {
+.section3>p {
     margin: 0px 25%;
     text-align: center;
     font-size: 1.2rem;
@@ -189,7 +189,7 @@ ul {
     margin-top: 40px;
 }
 
-.wlcmbtndiv > a  button {
+.wlcmbtndiv>a button {
     width: 120px;
     height: 45px;
     background-color: #ffc547;
@@ -198,7 +198,7 @@ ul {
     letter-spacing: 1px;
 }
 
-.wlcmbtndiv > a button:hover {
+.wlcmbtndiv>a button:hover {
     /* background-color: whitesmoke; */
     border: 3px solid white;
 }
@@ -219,7 +219,7 @@ ul {
 
 }
 
-.car-head > h1 {
+.car-head>h1 {
     font-size: 4rem;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -228,7 +228,7 @@ ul {
     margin: 0px;
 }
 
-.car-head > h3 {
+.car-head>h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     text-align: center;
@@ -279,7 +279,7 @@ ul {
     height: 80px;
 }
 
-.footerdiv1 > h3 {
+.footerdiv1>h3 {
     font-size: 1.1rem;
     color: white;
     font-family: sans-serif;
@@ -312,17 +312,17 @@ ul {
     padding: 40px 40px 10px;
 }
 
-.footerdiv2 > .div2-col {
+.footerdiv2>.div2-col {
     width: 300px;
 }
 
-.footerdiv2 .div2-col > h1 {
+.footerdiv2 .div2-col>h1 {
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
 }
 
-.footerdiv2 .div2-col > hr {
+.footerdiv2 .div2-col>hr {
     width: 100px;
     height: 4.5px;
     background-color: #342d64;
@@ -331,14 +331,16 @@ ul {
     margin-left: 2px;
 }
 
-.footerdiv2 .div2-col > p {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.footerdiv2 .div2-col>p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
     color: white;
 }
 
-.div2-col .p2, .p3, .p4 {
+.div2-col .p2,
+.p3,
+.p4 {
     line-height: 50px;
 }
 
@@ -370,9 +372,9 @@ ul {
     width: 100%;
     height: 600px;
     display: flex;
-   align-items: center; 
-   text-align: center;
-   padding: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
 }
 
 .section5 .s5-div .s5-h1 {
@@ -421,6 +423,7 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+
 .s6-h3 {
     font-size: 1.6rem;
     font-family: sans-serif;
@@ -430,7 +433,7 @@ ul {
 
 .s6-h4 {
     font-family: sans-serif;
-    font-weight:normal;
+    font-weight: normal;
     padding-right: 80px;
     text-align: justify;
 }
@@ -444,8 +447,8 @@ ul {
 .btn button {
     width: 150px;
     height: 50px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
     font-weight: bold;
     background-color: black;
     color: white;
@@ -454,40 +457,41 @@ ul {
 }
 
 @media screen and (min-width: 1081px) {
-    
+
     header {
         overflow-x: hidden;
         width: 100%;
         height: 100vh;
-      }
-    
-      .row-container .col1 {
-          margin-top: 60px;
-          margin-left: 100px;
-      }
-    
-      .row-container .col1 h1 {color: white;
-          font-size: 5rem;
-          font-weight: 900;
-          line-height: 100px;
-          margin-left: 50px;
-      }
-    
-      .container-fluid img {
-          background-size: cover;
-          width: 300px;
-          margin-left: 80px;
-          margin-top: 20px;
-          overflow: hidden;
-      } 
-    
-  }
+    }
+
+    .row-container .col1 {
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+
+    .row-container .col1 h1 {
+        color: white;
+        font-size: 5rem;
+        font-weight: 900;
+        line-height: 100px;
+        margin-left: 50px;
+    }
+
+    .container-fluid img {
+        background-size: cover;
+        width: 300px;
+        margin-left: 80px;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+}
 
 @media only screen and (max-width: 1180px) {
 
     header {
-      overflow-x: hidden;
-      height: 100vh;
+        overflow-x: hidden;
+        height: 100vh;
     }
 
     .row-container .col1 {
@@ -496,7 +500,8 @@ ul {
         margin-left: 50px;
     }
 
-    .row-container .col1 h1 {color: white;
+    .row-container .col1 h1 {
+        color: white;
         font-size: 4rem;
         font-weight: 900;
         line-height: 80px;
@@ -509,9 +514,9 @@ ul {
         margin-left: 50px;
         margin-top: 20px;
         overflow: hidden;
-    } 
+    }
 
-    .section3 > p {
+    .section3>p {
         margin: 0px 20%;
         text-align: center;
         font-size: 1.2rem;
@@ -541,10 +546,10 @@ ul {
         display: flex;
         flex-wrap: wrap;
     }
-    
+
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 900px) {
     .section6 {
         padding: 200px 50px;
     }
@@ -587,19 +592,20 @@ ul {
     }
 }
 
-@media only screen and (max-width: 625px){
+@media only screen and (max-width: 625px) {
 
     header {
         overflow-x: hidden;
         height: auto;
-      }
+    }
 
     .row-container .col1 {
         margin-top: 40px;
         margin-left: 0px;
     }
 
-    .row-container .col1 h1 {color: white;
+    .row-container .col1 h1 {
+        color: white;
         font-size: 2.5rem;
         font-weight: 900;
         line-height: 40px;
@@ -612,7 +618,7 @@ ul {
         margin-left: 30px;
         margin-top: 20px;
         overflow: hidden;
-    } 
+    }
 
     .section1 .section1h1 {
         text-align: center;
@@ -626,7 +632,7 @@ ul {
         font-size: 3rem;
     }
 
-    .section3 > p {
+    .section3>p {
         margin: 0px;
         margin: 0px 20px;
         text-align: center;
@@ -635,7 +641,7 @@ ul {
         font-family: cursive;
     }
 
-    .car-head > h1 {
+    .car-head>h1 {
         font-size: 3rem;
     }
 
@@ -665,14 +671,14 @@ ul {
         font-weight: bold;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-    
+
     .btn {
         justify-content: center;
     }
 
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 400px) {
 
     header {
         height: auto;
@@ -682,7 +688,7 @@ ul {
         margin-top: 40px;
     }
 
-    .footerdiv1 > h3 {
+    .footerdiv1>h3 {
         font-size: 0.8rem;
         color: white;
         font-family: sans-serif;
